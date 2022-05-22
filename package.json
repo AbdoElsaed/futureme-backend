@@ -1,0 +1,28 @@
+{
+  "name": "futureme-mq",
+  "version": "1.0.0",
+  "description": "future me message queue system with a mailer service",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bull": "^4.8.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.26.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.0.13",
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
